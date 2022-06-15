@@ -6,6 +6,8 @@ export interface IState {
     cart: ICartState;
 }
 
-const store = createStore(rootReducer);
+const store = createStore(
+    rootReducer,
+    );
 
 export default store;
